@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+dlib = ">=19.5.0"
+scipy = ">=0.17.0"
+scikit-image = "*"
+numpy = "*"
+"59d3f8a" = {file = "http://download.pytorch.org/whl/torch-0.3.1-cp36-cp36m-macosx_10_7_x86_64.whl"}
+torchvision = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
